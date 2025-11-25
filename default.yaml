@@ -1,18 +1,3 @@
 metadata:
-  author: "Павлов К.С., Советов П.Н."
-  date: Москва – 2024
-  figureTitle: Рисунок 
-  figPrefix: рисунок
-  titleDelim: .
-  tableTitle: Таблица
-  tblPrefix: табл. 
-  numberSections: true
-  sectionsDepth: 3
-  secHeaderDelim: ". "
-  toc-title: Оглавление
-  bibliography: bibliography.bib
-  link-citations: true
-  csl: gost-r-7-0-5-2008-numeric-iaa.csl
-
-
-
+  geometry: "margin=2cm"
+  mainfont : "Times New Roman"
