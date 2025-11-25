@@ -1,3 +1,10 @@
 metadata:
   geometry: "margin=2cm"
   mainfont : "Times New Roman"
+  figureTitle: Рис. 
+  figPrefix: рис.
+  tableTitle: Таблица
+  tblPrefix: табл.
+  bibliography: bibliography.bib
+  link-citations: true
+  csl: gost-r-7-0-5-2008-numeric-iaa.csl

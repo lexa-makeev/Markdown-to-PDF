@@ -1,5 +1,4 @@
-SOURCES = templates/header.md \
-          sections/01-intro.md \
+SOURCES = sections/01-intro.md \
           sections/02-architecture.md \
           sections/03-parallelism.md \
           sections/04-experiments.md \
@@ -13,5 +12,6 @@ runpandoc:
 	pandoc $(SOURCES) -o result_article.pdf \
 	--pdf-engine=xelatex \
     -d default.yaml \
-	--citeproc \
-	-F pandoc-crossref 
+    -F pandoc-crossref \
+	--citeproc 
+	
