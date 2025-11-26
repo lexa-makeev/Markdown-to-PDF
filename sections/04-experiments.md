@@ -27,7 +27,7 @@ clang -O2 -S -emit-llvm -funroll-loops -finline-functions.
 Данные по каждому выбранному участку приведены в @tbl:tabl2.
 
 \setlength{\parindent}{0pt}
-\vspace{0.4cm}
+\vspace{1cm}
 
 \begin{table}[h]
 
@@ -69,7 +69,7 @@ clang -O2 -S -emit-llvm -funroll-loops -finline-functions.
 
 \end{table}
 
-\vspace{0.2cm}
+\vspace{-1.5cm}
 
 \begin{table}[h]
 
