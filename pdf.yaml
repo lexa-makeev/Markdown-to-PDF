@@ -1,0 +1,9 @@
+documentclass: article
+header-includes: |
+    \usepackage{fontspec}
+    \usepackage{unicode-math}
+    \usepackage{caption}
+    \captionsetup[figure]{justification=centering}
+    \captionsetup[figure]{font={normalfont},format=plain,labelsep=endash}
+    \captionsetup[table]{font={normalfont},format=plain,labelsep=endash}
+    \usepackage{hyperref}

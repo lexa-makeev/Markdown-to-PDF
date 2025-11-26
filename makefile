@@ -13,5 +13,6 @@ runpandoc:
 	--pdf-engine=xelatex \
     -d default.yaml \
     -F pandoc-crossref \
-	--citeproc 
+	--citeproc \
+	--metadata-file pdf.yaml
 	
